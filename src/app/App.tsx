@@ -40,7 +40,7 @@ const NAV = [
   { id: "contact",        label: "Contact",    icon: <Mail size={16} /> },
 ];
 
-const ROLES = ["Full Stack Developer", "IT Specialist", "AI Automation Engineer", "Problem Solver", "Admin Assistant"];
+const ROLES = ["Full Stack Developer", "IT Specialist", "AI Automation Engineer", "Problem Solver", "Builder, Admin Assistant"];
 const PROFILE_IMAGE = "/profile/drix-portrait-new.png";
 const HERO_PROFILE_IMAGE = "/profile/drix-portrait-cutout.png";
 const CV_PATH = "/resume/Drix_Molina_Resume.pdf";
@@ -768,6 +768,19 @@ function HeroSection() {
               >
                 <Layers size={16} /> View Projects
               </motion.button>
+          <motion.button
+  type="button"
+  onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+  whileHover={{ scale: 1.03, y: -2 }}
+  whileTap={{ scale: 0.97 }}
+  className="flex items-center gap-2 px-8 py-3.5 rounded-2xl text-sm font-semibold text-white"
+  style={{
+    background: "linear-gradient(135deg,var(--accent),var(--accent))",
+    boxShadow: "0 4px 28px rgba(var(--accent-rgb),0.45)"
+  }}
+>
+  <Mail size={16} /> Hire Me
+</motion.button>
               <motion.button
                 type="button"
                 onClick={() => setPreviewOpen(true)}
@@ -775,17 +788,7 @@ function HeroSection() {
                 whileTap={{ scale: 0.97 }}
                 className="flex items-center gap-2 px-8 py-3.5 rounded-2xl text-sm font-semibold"
                 style={{ ...glass, color: "var(--text)" }}
-              >       <Mail size={16} /> Hire Me
-               </motion.a>
-
-               <motion.button
-               type="button"
-                onClick={() => setPreviewOpen(true)}
-                whileHover={{ scale: 1.03, y: -2 }}
-                whileTap={{ scale: 0.97 }}
-                className="flex items-center gap-2 px-8 py-3.5 rounded-2xl text-sm font-semibold"
-               style={{ ...glass, color: "var(--text)" }}
-  >
+              >       
                 <Eye size={16} /> View CV
               </motion.button>
               
