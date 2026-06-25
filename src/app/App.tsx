@@ -142,7 +142,7 @@ const EXPERIENCE = [
 
 const CURRENT_WORK = [
   "Building and refining my Highly Succeed Enterprise Employee Management System project",
-  "Improving my portfolio with real project screenshots, certificates, and professional case studies",
+  "Improving my portfolio with project screenshots, certificates, and professional case studies",
   "Expanding my skills in React, Firebase, PHP, networking, and AI-assisted development",
 ];
 
@@ -1195,7 +1195,7 @@ function ProjectsSection() {
     <>
       <section id="projects" className="py-32 relative z-10">
         <div className="container mx-auto px-6">
-          <FadeIn><SectionHeader tag="Portfolio" title="Real Projects" subtitle="Actual systems and case studies from my web, mobile, and capstone work" /></FadeIn>
+          <FadeIn><SectionHeader tag="Portfolio" title="Projects" subtitle="Actual systems and case studies from my web, mobile, and capstone work" /></FadeIn>
 
           <FadeIn delay={0.1}>
             <div className="max-w-6xl mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-6">
