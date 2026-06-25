@@ -925,8 +925,7 @@ function AboutSection() {
                 />
                 <div className="absolute inset-x-0 bottom-0 p-5" style={{ background: "linear-gradient(to top, rgba(0,0,0,0.78), rgba(0,0,0,0.08))" }}>
                   <div className="flex flex-wrap items-center gap-2 mb-2">
-                    <span className="px-3 py-1 rounded-full text-[11px] font-jetbrains" style={{ background: "rgba(var(--accent-rgb),0.16)", border: "1px solid rgba(var(--accent-rgb),0.25)", color: "var(--text)" }}>Professional Portrait</span>
-                    <span className="px-3 py-1 rounded-full text-[11px] font-jetbrains" style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)", color: "rgba(var(--text-rgb),0.8)" }}>Blended with site theme</span>
+
                   </div>
                   <div className="text-lg font-sora font-semibold" style={{ color: "var(--text)" }}>Drix Molina</div>
                   <div className="text-sm" style={{ color: "rgba(var(--text-rgb),0.55)" }}>Full Stack Developer · IT Specialist · AI Automation</div>
@@ -939,7 +938,7 @@ function AboutSection() {
                 </div>
                 <div>
                   <div className="font-semibold font-sora" style={{ color: "var(--text)" }}>Far Eastern University – Diliman</div>
-                  <div className="text-sm" style={{ color: "rgba(var(--text-rgb),0.4)" }}>4th Year BSIT Student · 2022–Present</div>
+                  <div className="text-sm" style={{ color: "rgba(var(--text-rgb),0.4)" }}>BSIT-WMA Graduate · 2022 – 2026</div>
                 </div>
               </div>
               <p className="leading-relaxed mb-4 text-sm" style={{ color: "rgba(var(--text-rgb),0.6)" }}>
