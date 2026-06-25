@@ -768,9 +768,8 @@ function HeroSection() {
               >
                 <Layers size={16} /> View Projects
               </motion.button>
-          <motion.button
-  type="button"
-  onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+              <motion.a
+  href="mailto:drixmolina31@gmail.com"
   whileHover={{ scale: 1.03, y: -2 }}
   whileTap={{ scale: 0.97 }}
   className="flex items-center gap-2 px-8 py-3.5 rounded-2xl text-sm font-semibold text-white"
@@ -780,7 +779,7 @@ function HeroSection() {
   }}
 >
   <Mail size={16} /> Hire Me
-</motion.button>
+</motion.a>
               <motion.button
                 type="button"
                 onClick={() => setPreviewOpen(true)}
@@ -1503,7 +1502,7 @@ function TestimonialsSection() {
   return (
     <section id="testimonials" className="py-24 relative z-10">
       <div className="container mx-auto px-6">
-        <FadeIn><SectionHeader tag="Recommendations" title="Testimonials" subtitle="Placeholder recommendation cards that can be replaced with real feedback later." /></FadeIn>
+        <FadeIn><SectionHeader tag="Recommendations" title="Testimonials" subtitle="Placeholder recommendation cards that can be replaced with feedback later." /></FadeIn>
         <FadeIn delay={0.1}>
           <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-5">
             {TESTIMONIALS.map((t, i) => (

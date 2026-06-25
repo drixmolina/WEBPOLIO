@@ -26,7 +26,7 @@ export function CapstoneProjectSection({
           <div className="text-center mb-20">
             <span className="text-xs font-jetbrains tracking-[0.3em] uppercase mb-4 block" style={{ color: "var(--accent)" }}>Featured Project</span>
             <h2 className="text-4xl md:text-5xl font-bold font-sora mb-5" style={{ color: "var(--text)" }}>Capstone Project</h2>
-            <p className="text-lg max-w-2xl mx-auto leading-relaxed" style={{ color: "rgba(var(--text-rgb),0.45)" }}>My real capstone case study with project demo photos, awards recognition, and the full research paper.</p>
+            <p className="text-lg max-w-2xl mx-auto leading-relaxed" style={{ color: "rgba(var(--text-rgb),0.45)" }}>My capstone case study with project demo photos, awards recognition, and the full research paper.</p>
           </div>
 
           <div ref={ref} className="max-w-6xl mx-auto space-y-8">
