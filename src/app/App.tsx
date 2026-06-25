@@ -40,7 +40,7 @@ const NAV = [
   { id: "contact",        label: "Contact",    icon: <Mail size={16} /> },
 ];
 
-const ROLES = ["Full Stack Developer", "IT Specialist", "AI Automation Engineer", "Problem Solver", "Builder, Admin Assistant"];
+const ROLES = ["Full Stack Developer", "IT Specialist", "AI Automation Engineer", "Problem Solver", "Admin Assistant"];
 const PROFILE_IMAGE = "/profile/drix-portrait-new.png";
 const HERO_PROFILE_IMAGE = "/profile/drix-portrait-cutout.png";
 const CV_PATH = "/resume/Drix_Molina_Resume.pdf";
