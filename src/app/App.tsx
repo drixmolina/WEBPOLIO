@@ -775,9 +775,20 @@ function HeroSection() {
                 whileTap={{ scale: 0.97 }}
                 className="flex items-center gap-2 px-8 py-3.5 rounded-2xl text-sm font-semibold"
                 style={{ ...glass, color: "var(--text)" }}
-              >
+              >       <Mail size={16} /> Hire Me
+               </motion.a>
+
+               <motion.button
+               type="button"
+                onClick={() => setPreviewOpen(true)}
+                whileHover={{ scale: 1.03, y: -2 }}
+                whileTap={{ scale: 0.97 }}
+                className="flex items-center gap-2 px-8 py-3.5 rounded-2xl text-sm font-semibold"
+               style={{ ...glass, color: "var(--text)" }}
+  >
                 <Eye size={16} /> View CV
               </motion.button>
+              
               <motion.a
                 href={CV_PATH}
                 download="Drix_Molina_Resume.pdf"
